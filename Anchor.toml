@@ -1,0 +1,15 @@
+[programs.localnet]
+instagif = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+
+[programs.devnet]
+instagif = "CeDEDCt8fXaxTS5ediW1vvL9925obyk34oN7Xv9SCN4e"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/chestercueto/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
